@@ -1,0 +1,384 @@
+.home-all {
+    padding: 0 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-block: 50px;
+    align-items: center;
+}
+
+.home-text {
+    width: 95%;
+}
+
+.home-text h1 {
+    font-size: 65px;
+}
+
+.home-text p {
+    margin-block: 25px;
+    font-size: 1.5rem;
+}
+
+.home-btn button {
+    border: none;
+    padding: 15px 45px;
+    background-color: #ff4500;
+}
+
+.home-btn a {
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+.home-btn i {
+    color: #fff;
+    padding-left: 5px;
+}
+
+.home-images {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.immerse {
+    margin-top: 70px;
+    padding: 0 10%;
+    padding-block: 50px;
+    background-color: #ff440039;
+    text-align: center;
+}
+
+.immerse h1 {
+    text-align: center;
+    font-size: 65px;
+}
+
+.immerse p {
+    font-size: 20px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.immerse button {
+    margin-top: 25px;
+    background-color: #ff4500;
+    padding: 15px 35px;
+    border: none;
+
+}
+
+.immerse button a {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.immerse i {
+    padding-left: 5px;
+    color: #fff;
+}
+
+.weekends {
+    margin-top: 70px;
+    padding: 0 10%;
+}
+
+.weekend-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.weekend-card {
+    margin-top: 50px;
+    width: 95%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.weekend-image {
+    height: 300px;
+    width: 100%;
+    background-color: #ff4500;
+    background-image: url(../images/movies.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.weekend-info {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-block: 20px;
+
+}
+
+.weekend-info i {
+    font-size: 1.2rem;
+    padding-right: 5px;
+    color: #ff4500;
+    width: 30px;
+}
+
+.weekend-info h3 {
+    margin-bottom: 10px;
+}
+
+.weekend-info p {
+    margin-bottom: 10px;
+}
+
+.price {
+
+
+    margin-bottom: 10px;
+    font-size: 1.7rem;
+}
+
+.weekend-info button {
+    background-color: #ff4500;
+    padding: 15px 45px;
+    border: none;
+    width: 100%;
+    margin-left: auto;
+    margin-left: auto;
+}
+
+.weekend-info button a {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.weekend-title h1 {
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.weekend-title p {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.contact {
+    margin-top: 70px;
+    background-color: #ff440039;
+    padding: 0 10%;
+    padding-block: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form {
+    width: 95%;
+}
+
+.forms input {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+    padding-left: 5%;
+}
+
+.forms input:focus {
+    outline: none;
+}
+
+.forms textarea {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 25px;
+    padding-left: 5%;
+}
+
+.forms textarea:focus {
+    outline: none;
+}
+
+.forms button {
+    padding: 15px 45px;
+    background-color: #ff4500;
+    font-size: 1.5rem;
+    color: #fff;
+    border: none;
+}
+
+.forms i {
+    color: #fff;
+    padding-left: 5px;
+}
+
+.map iframe {
+    height: 100%;
+    width: 100%;
+}
+
+.contact-title h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.contact-title p {
+    margin-bottom: 25px;
+
+}
+
+.newsletter {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    margin-top: 70px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-block: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.newsletter h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.newsletter p {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.letter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.letter input {
+    width: 70%;
+    height: 50px;
+    padding-left: 3%;
+}
+
+.letter input:focus {
+    outline: none;
+}
+
+.letter button {
+    padding: 15px 45px;
+    background-color: #ff4500;
+    font-size: 1.2rem;
+    color: #fff;
+    border: none;
+}
+
+.letter i {
+    color: #fff;
+    padding-left: 5px;
+}
+
+@media only screen and (max-width: 1122px) {
+    .home-all {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-images {
+        margin-top: 50px;
+    }
+
+    .weekend-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .weekend-card {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .map {
+        margin-top: 50px;
+    }
+
+    .map iframe {
+        height: 500px;
+    }
+
+}
+
+@media only screen and (max-width: 901px) {
+    .letter {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .letter button {
+        margin-top: 25px;
+    }
+}
+
+@media only screen and (max-width: 893px) {
+    .weekend-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 653px) {
+    .home-text h1 {
+        font-size: 45px;
+    }
+
+    .immerse h1 {
+        text-align: center;
+        font-size: 45px;
+    }
+
+    .weekend-title h1 {
+        font-size: 35px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 553px) {
+    .home-images img {
+        width: 100%;
+    }
+
+    .weekend-info button a {
+        color: #fff;
+        font-size: 12px;
+    }
+
+    .forms button {
+        padding: 15px 45px;
+        background-color: #ff4500;
+        font-size: 15px;
+        color: #fff;
+        border: none;
+        width: 100%;
+    }
+
+    .home-btn a {
+        color: #fff;
+        font-size: 15px;
+    }
+
+    .immerse button a {
+        font-size: 15px;
+        color: #fff;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    h1{
+        font-size: 25px;
+    }
+}
