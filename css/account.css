@@ -1,0 +1,75 @@
+body{
+    height: 100vh;
+    align-items: center;
+background-color: #ff440032;
+}
+.account-all{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    align-self: center;
+    margin: 0 10%;
+    height: 80vh;
+    margin-block: 10vh;
+ background-color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    
+}
+
+.account-image{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    background-image: url(../images/movies.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.account-forms{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.account-forms form{
+display: flex;
+    flex-direction: column;
+}
+.account-forms input{
+    height: 50px;
+    margin-bottom: 25px;
+    padding-left: 5%;
+}
+
+.account-forms input:focus{
+    outline: none;
+}
+
+.account-forms input[type=submit]{
+    background-color: #ff4500;
+    border: none;
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.account-title{
+    margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 1122px) {
+    .account-image{
+        display: none;
+    }
+    .account-all{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .account-forms{
+        width: 100%;
+    }
+    .account-forms inpu{
+        width: 100%;
+    }
+}

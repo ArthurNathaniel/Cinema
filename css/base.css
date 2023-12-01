@@ -322,13 +322,23 @@ footer hr{
     #toggleButton i {
         color: #f2f2f2;
     }
-           .nav-links a:hover,
-           .nav-links a:hover::after,
-           .ft-box a:hover,
-           .ft-box a:hover::after {
-               color: inherit;
-               width: 0;
-           }
+                   .nav-links a::after {
+                       content: '';
+                       display: none;
+                       height: 2px;
+                       width: 0;
+                       /* Change to the desired underline color */
+                       position: absolute;
+                       bottom: 0;
+                       left: 50%;
+                       transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+                       transform: translateX(-50%);
+                       margin-bottom: -10px;
+                   }
+        
+                   .nav-links a:hover::after {
+                       width: 100%;
+                   }
 .footer-grid{
     display: grid;
     grid-template-columns: 1fr 1fr;

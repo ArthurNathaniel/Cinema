@@ -1,0 +1,39 @@
+ body{
+    background-color: #ff440032;
+ }.row.content {
+     height: 550px;
+     
+ }
+
+ 
+ .sidenav {
+     background-color: #fff;
+     height: 100vh;
+    
+    
+ }
+.nav{
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+      
+       
+        border: 1px solid;
+        padding-block: 40px;
+       
+}
+.logout{
+    position: absolute;
+    background-color: red;
+    padding: 15px 35px;
+    bottom: 20px;
+}
+.logo-{
+    height: 200px;
+    width: 200px;
+}
+ @media screen and (max-width: 767px) {
+     .row.content {
+         height: auto;
+     }
+ }

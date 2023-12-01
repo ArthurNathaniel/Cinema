@@ -3,7 +3,7 @@
         <div class="ft-box">
             <h1>About Us</h1>
             <p>
-                At Movie House Plaza, we're more than just a movie destination. We're dedicated storytellers, curating immersive experiences that go beyond the screen. Join us in celebrating the joy of cinematic exploration!
+                At Company Name, we're more than just a movie destination. We're dedicated storytellers, curating immersive experiences that go beyond the screen. Join us in celebrating the joy of cinematic exploration!
             </p>
         </div>
         <div class="ft-box">
@@ -15,9 +15,9 @@
         </div>
         <div class="ft-box">
             <h1>Contact Us</h1>
-            <a href=""><i class="fa-solid fa-location-dot"></i> Patasi, West End Hospital Bypass, Kumasi</a>
-            <a href=""><i class="fa-solid fa-envelope"></i>info@movieplaza.com</a>
-            <a href=""><i class="fa-solid fa-envelope"></i>ticket@movieplaza.com</a>
+            <a href=""><i class="fa-solid fa-location-dot"></i> Company Location</a>
+            <a href=""><i class="fa-solid fa-envelope"></i>info@companyname.com</a>
+            <a href=""><i class="fa-solid fa-envelope"></i>ticket@companyname.com</a>
             <a href=""><i class="fa-solid fa-phone"></i> +233 244 762 183</a>
         </div>
     </div>
@@ -37,7 +37,7 @@
             <script>
                 document.write(new Date().getFullYear())
             </script>
-            | Movies House Plaza Cinema
+            | company name
         </span>
     </div>
 </footer>

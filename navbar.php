@@ -1,19 +1,20 @@
 <div class="navbar-all">
     <a href="index.php">
         <div class="logo">
-<h1>M.H.P</h1>
+<h1>LOGO </h1>
         </div>
     </a>
     <div class="nav-items">
         <div class="nav-links">
-           <a href="">Home</a>
-           <a href="">About Us</a>
-           <a href="">Events</a>
-           <a href="">Tickets</a>
-           <a href="">Contact Us</a>
+           <a href="index.php">Home</a>
+           <a href="about.php">About Us</a>
+           <a href="events.php">Events</a>
+           <!-- <a href="">Tickets</a> -->
+           <a href="gallery.php">Gallery</a>
+           <a href="contact.php">Contact Us</a>
         </div>
         <div class="nav-btns">
-            <button><a href="">Admin Login</a></button>
+            <button><a href="login.php">Admin Login</a></button>
         </div>
     </div>
     <button id="toggleButton">

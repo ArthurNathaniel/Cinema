@@ -187,6 +187,7 @@
     height: 150px;
     margin-bottom: 25px;
     padding-left: 5%;
+    padding-top: 15px;
 }
 
 .forms textarea:focus {
@@ -273,6 +274,39 @@
     padding-left: 5px;
 }
 
+.hero{
+    height: 40vh;
+    background-color: #ff440039;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero h1{
+    font-size: 55px;
+}
+.contact-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 10%;
+    margin-top: 70px;
+}
+.contact-box{
+    /* border: 1px solid; */
+    width: 95%;
+    padding-block: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.contact-box i{
+    margin-block: 10px;
+}
+.abouttt{
+    padding: 0 10%;
+    margin-top: 70px;
+}
 @media only screen and (max-width: 1122px) {
     .home-all {
         display: flex;
@@ -310,6 +344,15 @@
         height: 500px;
     }
 
+    .contact-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contact-box{
+        margin-bottom: 30px;
+    }
+
 }
 
 @media only screen and (max-width: 901px) {
@@ -328,6 +371,10 @@
         display: grid;
         grid-template-columns: 1fr;
     }
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr ;
+        }
 }
 
 @media only screen and (max-width: 653px) {
